@@ -1,0 +1,7 @@
+D:\Semester2\VIVA Tasks\Point and Line\bin\Debug\Point and Line.exe.config
+D:\Semester2\VIVA Tasks\Point and Line\bin\Debug\Point and Line.exe
+D:\Semester2\VIVA Tasks\Point and Line\bin\Debug\Point and Line.pdb
+D:\Semester2\VIVA Tasks\Point and Line\obj\Debug\Point and Line.csproj.AssemblyReference.cache
+D:\Semester2\VIVA Tasks\Point and Line\obj\Debug\Point and Line.csproj.CoreCompileInputs.cache
+D:\Semester2\VIVA Tasks\Point and Line\obj\Debug\Point and Line.exe
+D:\Semester2\VIVA Tasks\Point and Line\obj\Debug\Point and Line.pdb

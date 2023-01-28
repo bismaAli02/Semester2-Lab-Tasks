@@ -1,0 +1,7 @@
+D:\Semester2\OOPs\Week3\Clock_Task\bin\Debug\Clock_Task.exe.config
+D:\Semester2\OOPs\Week3\Clock_Task\bin\Debug\Clock_Task.exe
+D:\Semester2\OOPs\Week3\Clock_Task\bin\Debug\Clock_Task.pdb
+D:\Semester2\OOPs\Week3\Clock_Task\obj\Debug\Clock_Task.csproj.AssemblyReference.cache
+D:\Semester2\OOPs\Week3\Clock_Task\obj\Debug\Clock_Task.csproj.CoreCompileInputs.cache
+D:\Semester2\OOPs\Week3\Clock_Task\obj\Debug\Clock_Task.exe
+D:\Semester2\OOPs\Week3\Clock_Task\obj\Debug\Clock_Task.pdb

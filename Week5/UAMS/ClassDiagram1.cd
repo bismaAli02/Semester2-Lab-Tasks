@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="&lt;&lt; CRH &lt;= 20&gt;&gt;">
+    <Position X="7.604" Y="0.847" Height="0.291" Width="1.235" />
+  </Comment>
+  <Comment CommentText="&lt;&lt; CRH &lt;= 9 &amp;&amp; Registered DegreeProgram &gt;&gt;">
+    <Position X="4.736" Y="5.5" Height="0.326" Width="2.978" />
+  </Comment>
+  <Class Name="UAMS.BL.DegreeProgram">
+    <Position X="4.75" Y="0.5" Width="2.5" />
+    <Members>
+      <Field Name="OfferedDegree" Hidden="true" />
+    </Members>
+    <AssociationLine Name="OfferedSubjects" Type="UAMS.BL.Subjects" FixedFromPoint="true">
+      <Path>
+        <Point X="7.25" Y="1.468" />
+        <Point X="9.5" Y="1.468" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.81" Y="0.096" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAIAQAAAAEAAAABAAAaAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>BL\DegreeProgram.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="OfferedSubjects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="UAMS.BL.Student">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <Members>
+      <Field Name="students" Hidden="true" />
+    </Members>
+    <AssociationLine Name="Preferences" Type="UAMS.BL.DegreeProgram" FixedFromPoint="true">
+      <Path>
+        <Point X="2.75" Y="0.875" />
+        <Point X="4.75" Y="0.875" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.616" Y="0.068" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="RegisteredSubjects" Type="UAMS.BL.Subjects" ManuallyRouted="true">
+      <Path>
+        <Point X="1.625" Y="4.555" />
+        <Point X="1.625" Y="6.152" />
+        <Point X="10.5" Y="6.152" />
+        <Point X="10.5" Y="2.632" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.728" Y="3.227" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="RegisteredDegree" Type="UAMS.BL.DegreeProgram" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.188" Y="4.555" />
+        <Point X="2.188" Y="4.958" />
+        <Point X="6" Y="4.958" />
+        <Point X="6" Y="3.401" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.345" Y="1.006" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAAgBAAAAAAQAAIAABAEAEAAAAEQAAAAAAAQECCAUA=</HashCode>
+      <FileName>BL\Student.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="RegisteredDegree" />
+      <Field Name="students" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="Preferences" />
+      <Field Name="RegisteredSubjects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="UAMS.BL.Subjects">
+    <Position X="9.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAIAAAIAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Subjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,2 @@
+umair,123abcd,Admin
+abc,23,Customer

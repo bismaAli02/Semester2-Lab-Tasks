@@ -1,0 +1,7 @@
+D:\Semester2\VIVA Tasks\Point And Sales Application\bin\Debug\Point And Sales Application.exe.config
+D:\Semester2\VIVA Tasks\Point And Sales Application\bin\Debug\Point And Sales Application.exe
+D:\Semester2\VIVA Tasks\Point And Sales Application\bin\Debug\Point And Sales Application.pdb
+D:\Semester2\VIVA Tasks\Point And Sales Application\obj\Debug\Point And Sales Application.csproj.AssemblyReference.cache
+D:\Semester2\VIVA Tasks\Point And Sales Application\obj\Debug\Point And Sales Application.csproj.CoreCompileInputs.cache
+D:\Semester2\VIVA Tasks\Point And Sales Application\obj\Debug\Point And Sales Application.exe
+D:\Semester2\VIVA Tasks\Point And Sales Application\obj\Debug\Point And Sales Application.pdb
